@@ -19,7 +19,7 @@ RESPONSE_LABELS = [
 ]
 
 class CTEmulator:
-    def __init__(self, device_type="HMG-50", battery_mac="001122334455", ct_mac="009c17abcdef", ct_type="HME-4", poll_interval=1, discovery_battery_macs=None, dedupe_time_window=10):
+    def __init__(self, device_type="HMG-50", battery_mac="001122334455", ct_mac="98a14a8c75ee", ct_type="HME-4", poll_interval=1, discovery_battery_macs=None, dedupe_time_window=10):
         self.device_type = device_type
         self.battery_mac = battery_mac
         self.ct_mac = ct_mac
