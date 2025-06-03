@@ -90,7 +90,7 @@ def run_device(
         device_type_str = cfg.get("GENERAL", "CT002_DEVICE_TYPE", fallback="HMG-50")
         battery_mac = cfg.get("GENERAL", "CT002_BATTERY_MAC", fallback="001122334455")
         ct_mac = cfg.get("GENERAL", "CT002_CT_MAC", fallback="98a14a8c75ee")
-        ct_type = cfg.get("GENERAL", "CT002_CT_TYPE", fallback="HME-4")
+        ct_type = cfg.get("GENERAL", "CT002_CT_TYPE", fallback="HME-3")
         poll_interval = (
             args.poll_interval
             if args.poll_interval is not None
