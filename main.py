@@ -89,7 +89,7 @@ def run_device(
         # CT002-specific config (can be extended to use config/args)
         device_type_str = cfg.get("GENERAL", "CT002_DEVICE_TYPE", fallback="HMG-50")
         battery_mac = cfg.get("GENERAL", "CT002_BATTERY_MAC", fallback="001122334455")
-        ct_mac = cfg.get("GENERAL", "CT002_CT_MAC", fallback="009c17abcdef")
+        ct_mac = cfg.get("GENERAL", "CT002_CT_MAC", fallback="98a14a8c75ee")
         ct_type = cfg.get("GENERAL", "CT002_CT_TYPE", fallback="HME-4")
         poll_interval = (
             args.poll_interval
